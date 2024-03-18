@@ -52,6 +52,7 @@ Adjust the sampling size and damping factor to tinker with how many random itera
 **Random Sampling**: The random sampling method begins by selecting a page randomly from the corpus. Utilizing a transition model and Markov Chain, 
 the current page's state transitions to a random link within that page. The visits per page are recorded and accumulate throughout the total sample iterations, 
 providing a model of the probability distribution as if a random internet surfer were navigating the web.<br />
+<br />
 **Iterative Sampling**: In the iterative sampling approach, PageRank values are computed based on previous iterations. 
 Initially, each page is assigned an equal probability score—that is choosing one randomly. Then, using a recursive mathematical expression derived from the PageRank algorithm, 
 the probability score for each page is updated based on the PageRank values of its parent pages. This process continues iteratively until the 
@@ -60,7 +61,7 @@ estimation of the importance of each page within the corpus.
 
 ## Technologies
 
-**Language**: Python <br/ >
+**Language**: Python <be />
 **Libraries**: OS, Random, RE, Sys
 
 ## Credit
