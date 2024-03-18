@@ -18,6 +18,8 @@ ranking web pages within a given corpus by their probability of being visited.
 
 ## Installation
 
+You'll need to have Python and pip3 installed. You can download them from the [official Python website](https://www.python.org/downloads/).
+
 1. Clone the repository:
 
 ```bash
@@ -33,7 +35,7 @@ cd cite-your-sources
 3. Install the required dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
