@@ -23,7 +23,7 @@ You'll need to have Python and pip3 installed. You can download them from the [o
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/colindao/cite-your-sources.git
+git clone https://github.com/ColinDao/cite-your-sources.git
 ```
 
 2. Navigate to the project directory:
