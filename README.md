@@ -61,7 +61,7 @@ estimation of the importance of each page within the corpus.
 
 ## Technologies
 
-**Language**: Python <be />
+**Language**: Python <br />
 **Libraries**: OS, Random, RE, Sys
 
 ## Credit
