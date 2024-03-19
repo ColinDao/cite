@@ -52,7 +52,7 @@ providing a model of the probability distribution as if a random internet surfer
 **Iterative Sampling**: In the iterative sampling approach, PageRank values are computed based on previous iterations. 
 Initially, each page is assigned an equal probability score—that is choosing one randomly. Then, using a recursive mathematical expression derived from the PageRank algorithm, 
 the probability score for each page is updated based on the PageRank values of its parent pages. This process continues iteratively until the 
-PageRank values converge to stable values which deviate by less than 0.1%. By refining the PageRank values with each iteration, the iterative sampling method provides an accurate 
+PageRank values deviate by less than 0.1%. By refining the PageRank values with each iteration, the iterative sampling method provides an accurate 
 estimation of the importance of each page within the corpus.
 
 ## Technologies
