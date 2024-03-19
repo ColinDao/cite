@@ -23,13 +23,13 @@ You'll need to have Python installed. You can download it from the [official Pyt
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ColinDao/cite-your-sources.git
+git clone https://github.com/ColinDao/cite.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd cite-your-sources
+cd cite
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ cd cite-your-sources
 To analyze a corpus' pages, run the following command:
 
 ```bash
-python pagerank.py [corpus]
+python pagerank.py [corpus0]
 ```
 
 Adjust the sampling size and damping factor to tinker with how many random iterations you'd like to execute and the likelihood of choosing a link on that page.
